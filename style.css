@@ -1,5 +1,32 @@
+body {
+  background-color: hsl(0, 0%, 8%);
+  font-family: cursive;
+}
+
 .container {
   display: block;
   margin: auto;
+  margin-top: 130px;
+
   width: 400px;
+  border: none;
+  border-radius: 20px;
+  padding-top: 30px;
+  background-color: hsl(0, 0%, 12%);
+  text-align: center;
+}
+img {
+  border: none;
+  border-radius: 50%;
+}
+h2 {
+  color: white;
+}
+.location {
+  color: limegreen;
+  font-size: 16px;
+  font-weight: 600;
+}
+.brief {
+  font-weight: 600;
 }
